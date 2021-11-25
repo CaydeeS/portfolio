@@ -1,0 +1,15 @@
+
+
+.header {
+    background-color: silver;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    color: red;
+}
+
+.nav {
+    color: red;
+    padding: 20px;
+
+}
