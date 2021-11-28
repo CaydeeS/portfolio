@@ -32,7 +32,8 @@ nav a {
 .hero {
     height: 400px;
     width: 100%;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    border-bottom: 5px solid black;
     background-image: url(../assets/images/hero-image.png);
     background-size: cover;
     background-position: center;
@@ -57,6 +58,41 @@ nav a {
     font-size: 30px;
 }
 
-.work div ul li {
+.work div ul {
     padding-left: 15%;
 }
+
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-container div a img:hover {
+    opacity: 50%;
+}
+
+.project-1 {
+    padding-right: 5px;
+    width: 100%;
+}
+
+.project-2 {
+    padding-right: 5px;
+}
+
+.project-3 {
+    padding-right: 5px;
+}
+
+.project-4 {
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
